@@ -47,8 +47,8 @@ Below methods, to be precise:
  #Usage Example:
 
  ```js
-$ = require('lie-fs');
+var lieFS = require('lie-fs');
 
-$.stat('/tmp').then(console.log, console.error)
+lieFS.stat('/tmp').then(console.log, console.error)
 
  ```

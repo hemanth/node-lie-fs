@@ -1,5 +1,4 @@
-# lie-fs [![Build Status](https://travis-ci.org/hemanth/node-lie-fs.svg?branch=maste
-r)](https://travis-ci.org/hemanth/node-lie-fs)
+# lie-fs [![Build Status](https://travis-ci.org/hemanth/node-lie-fs.svg?branch=master)](https://travis-ci.org/hemanth/node-lie-fs)
 
 > Promise wrappers for Node's file system.
 

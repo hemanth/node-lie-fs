@@ -1,14 +1,12 @@
 var fs = require('fs') 
 , $ = require('lie-denodify')
-, anAysnc = require('an-async')
-, extend = require('util')._extend
-, pfs = extend(fs)
-, async = Object.keys(pfs).filter(function(k){return anAysnc(pfs[k]) });
+, anAysnc = require('an-async');
 
-console.log(async);
-
-async.forEach(function(f){
-  pfs[f] = $(pfs[f]);
+Object.keys(fs).forEach(function(k){
+  var val = fs[k];
+  if (anAysnc(val)) {
+    exports[k] = $(val);
+  } else {
+    exports[k] = val;
+  }
 });
-
-module.exports = pfs;

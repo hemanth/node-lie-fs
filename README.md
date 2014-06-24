@@ -42,11 +42,11 @@ Below methods, to be precise:
   'realpath' ]
  ```
 
- #Installing : 
+ # Installing : 
 
  `npm install lie-fs`
 
- #Usage Example:
+ # Usage Example:
 
  ```js
 var lieFS = require('lie-fs');

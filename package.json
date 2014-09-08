@@ -1,6 +1,6 @@
 {
   "name": "lie-fs",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "Promise wrappers for Node's FS API.",
   "main": "index.js",
   "scripts": {

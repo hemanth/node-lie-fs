@@ -7,8 +7,7 @@ All the async methods of node's `fs` API are converted to promises using lie-den
 Below methods, to be precise:
 
 ```js
-[ 'exists',
-  'readFile',
+[ 'readFile',
   'close',
   'open',
   'read',
